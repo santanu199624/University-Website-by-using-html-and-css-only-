@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAKAUT-WEBSITE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="">MAKAUT</a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="menu_hide()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -20,12 +22,36 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa-solid fa-bars" onclick="menu_show()"></i>
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolorum.</p>
-            <a href="">Visit us to know more</a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum inventore culpa sit iusto, fugiat accusamus quae impedit atque unde adipisci!</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
         </div>
     </section>
+
+    <!-- COURSES -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum nihil</p>
+    </section>
+
+    <section class="row">
+        <div class="course-col">
+            <h1>Intermediate</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque assumenda atque perspiciatis delectus architecto.</p>
+        </div>
+        <div class="course-col">
+            <h1>Degree</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque assumenda atque perspiciatis delectus architecto.</p>
+        </div>
+        <div class="course-col">
+            <h1>Post Graduation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque assumenda atque perspiciatis delectus architecto.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
