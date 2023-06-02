@@ -212,3 +212,48 @@ nav .fa-bars{
     opacity: 1;
     top: 50%;
 }
+
+/* FACILITIES */
+.facilities{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.facilities h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+.facilities p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.facilities-column{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-column img{
+    width: 100%;
+    border-radius: 10%;
+}
+.about-facilities{
+    text-align: center;
+}
+.about-facilities h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* TESTIMONIALS */
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: left;
+}
+.testimonial-col{
+    flex-basis: 44%;
+}
